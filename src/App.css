@@ -1,0 +1,26 @@
+.screenwidth700{
+    display:none;
+}
+@media screen and (max-width:500px) {
+    .screenwidth1080{
+        display:none;
+    }
+    .screenwidth700{
+        display:flex;
+    }
+    .scrollable-content {
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+        scrollbar-width: none; /* Hide scrollbar */
+        -ms-overflow-style: none; /* Hide scrollbar on IE/Edge */
+      }
+      
+      /* Optional: If you want to style individual items */
+      .scrollable-content > * {
+        flex-shrink: 0;
+        scroll-snap-align: start;
+      }
+}
+

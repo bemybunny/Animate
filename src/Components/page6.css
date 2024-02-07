@@ -1,0 +1,101 @@
+.body{
+    margin: 0;
+}
+.container{
+    display:flex;
+    height:100vh;
+}
+.page6_cnt{
+    width:40%;
+    padding-left:50px;
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    background-color: rgb(0, 75, 160);
+    color:white;
+}
+.animatepage6{
+    display:flex;
+    padding-left:20px;
+    width:60%;
+    background-color: rgb(31, 183, 253);
+}
+.svgbox6{
+    height:250px;
+    width:250px;
+    background-color: rgb(0, 75, 160);
+    position: relative;
+    border-radius: 50%;
+    left:350px;
+    top:60px;
+    z-index:100;
+}
+.flex-end{
+    padding-top:340px;
+}
+.flex-endImage>img{
+    height:70px;
+}
+.flex-endcol{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.flex-endcol>span{
+    font-size:12px;
+}
+.animatepageimg61{
+    position: relative;
+    top:-150px;
+    left:70px;
+}
+.animatepageimg61>img{
+    height:400px;
+    clip-path: polygon(0 37%, 100% 37%, 100% 100%, 0 100%);
+}
+.animatepageimg62{
+    position: relative;
+    top:400px;
+    left:-150px;
+}
+.animatepageimg62>img{
+    height:400px;
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 0 64%);
+}
+.animatepageimg63{
+    position: relative;
+    top:-150px;
+    left:-100px;
+}
+.animatepageimg63>img{
+    clip-path: polygon(0 37%, 100% 37%, 100% 100%, 0 100%);
+    height:400px;
+}
+.animatepageimg64{
+    position: relative;
+    top:400px;
+    left:-300px;
+}
+.animatepageimg64>img{
+    height:400px;
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 0 64%);
+}
+.animatepageimg65{
+    position: relative;
+    top:200px;
+    left:-280px;
+}
+.animatepageimg65>img{
+    height:400px;
+}
+@keyframes drawDash6 {
+    to {
+      stroke-dasharray: 670, 1000; /* Your desired stroke dasharray */
+    }
+  }
+  
+  .transrgwht6 {
+    stroke-dasharray: 0, 1000; /* Start with dasharray of 0 */
+    stroke-dashoffset: 0; /* Ensure the stroke starts from the beginning */
+    animation: drawDash6 1s linear forwards;
+  }

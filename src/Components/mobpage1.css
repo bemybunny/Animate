@@ -1,0 +1,40 @@
+.mob1_cnt{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+.mob1_image>img {
+    height:350px;
+}
+.mob1_image{
+    background-color: rgb(31, 31, 101);
+    flex:8;
+    display:flex;
+}
+.trainer{
+    position: relative;
+    top:200px;
+    clip-path: polygon(0 0, 100% 0, 100% 67%, 0 67%);
+}
+.fitness{
+    position:relative;
+    top:-100px;
+    left:-20px;
+}
+.mob1_heading{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    flex:6;
+    color:white;
+    gap:20px;
+    background-color: rgb(19, 19, 60);
+}
+.mob1_btn{
+    background-color: rgb(201, 38, 201);
+    padding:10px;
+    border-radius:40px;
+    border: 1px solid transparent;
+    outline: none;
+    color:white;
+}

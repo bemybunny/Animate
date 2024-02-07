@@ -1,0 +1,42 @@
+.mob2_cnt{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+.mob2_image>img {
+    height:350px;
+}
+.mob2_image{
+    background-color: rgb(23, 24, 38);
+    flex:8;
+    display:flex;
+}
+.domi_img1{
+    position: relative;
+    top:200px;
+    clip-path: polygon(0 0, 100% 0, 100% 67%, 0 67%);
+}
+.pizz{
+    position:relative;
+    top:-100px;
+    left:-20px;
+    clip-path: polygon(0 29%, 100% 29%, 100% 100%, 0 100%);
+}
+
+.mob2_heading{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    flex:6;
+    color:white;
+    gap:20px;
+    background-color: rgb(18, 36, 56);
+}
+.mob2_btn{
+    background-color: rgb(201, 38, 201);
+    padding:10px;
+    border-radius:40px;
+    border: 1px solid transparent;
+    outline: none;
+    color:white;
+}

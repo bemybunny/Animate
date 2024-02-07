@@ -1,0 +1,70 @@
+.body{
+    margin: 0;
+}
+.container{
+    display:flex;
+    height:100vh;
+}
+.page1_cnt{
+    padding-left:50px;
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    background-color: rgb(6, 155, 80);
+    color:white;
+}
+.animatepage1{
+    display:flex;
+    width:60%;
+    background-color: rgb(58, 252, 155);
+}
+
+.svgbox1{
+    height:250px;
+    width:250px;
+    background-color:rgb(6, 155, 80);
+    position: relative;
+    border-radius: 50%;
+    left:350px;
+    top:60px;
+}
+.flex-end{
+    position: relative;
+    left:50px;
+    top:-300px;
+}
+.flex-endImage>img{
+    height:70px;
+}
+.flex-endcol{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.flex-endcol>span{
+    font-size:12px;
+}
+.animatepage1{
+    padding-top:240px;
+    
+}
+.animatepageimg11{
+    position: relative;
+    top:80px;
+    left:150px;
+}
+.animatepageimg11>img{
+    height:400px;
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 0 84%);
+
+}
+.animateimage12{
+    top:30px;
+    position:relative;
+    left:80px;
+    
+}
+.animateimage12>img{
+    height:400px;
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0 97%);
+}

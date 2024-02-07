@@ -1,0 +1,72 @@
+.body{
+    margin: 0;
+}
+.container{
+    display:flex;
+    height:100vh;
+}
+.page4_cnt{
+    padding-left:50px;
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    background-color: rgb(145, 0, 182);
+    color:white;
+}
+.animatepage4{
+    display:flex;
+    width:60%;
+    background-color: rgb(174, 174, 185);
+}
+.svgbox4{
+    height:250px;
+    width:250px;
+    background-color:   rgb(145, 0, 182);
+    position: relative;
+    border-radius: 50%;
+    left:350px;
+    top:60px;
+}
+.flex-end{
+    padding-top:340px;
+}
+.flex-endImage>img{
+    height:70px;
+}
+.flex-endcol{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.flex-endcol>span{
+    font-size:12px;
+}
+.animatepage4{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.animatepageimg41{
+    position: relative;
+    left:40px;
+}
+.animatepageimg41>img{
+    height:500px;
+}
+.animateimage42{
+    position: relative;
+}
+.animateimage42>img{
+    height:500px;
+}
+@keyframes drawDash4 {
+    to {
+      stroke-dasharray: 410, 1000; /* Your desired stroke dasharray */
+    }
+  }
+  
+  .transrgwht4 {
+    stroke-dasharray: 0, 1000; /* Start with dasharray of 0 */
+    stroke-dashoffset: 0; /* Ensure the stroke starts from the beginning */
+    animation: drawDash4 1s linear forwards;
+  }

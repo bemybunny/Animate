@@ -1,0 +1,88 @@
+.body{
+    margin: 0;
+}
+.container{
+    display:flex;
+    height:100vh;
+}
+.page2_cnt{
+    padding-left:50px;
+    display:flex;
+    flex-direction: column;
+    width:40%;
+    background-color: rgb(13, 18, 49);
+    color:white;
+}
+.animatepage2{
+    display:flex;
+    width:60%;
+    background-color: rgb(1, 1, 27);
+}
+.svgspan{
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+    position: relative;
+    left:335px;
+    top:230px;
+    z-index:200;
+}
+.spanright{
+   position: relative;
+   left:80px;
+}
+.svgbox2{
+    height:250px;
+    width:250px;
+    background-color:  rgb(13, 18, 49);
+    position: relative;
+    border-radius: 50%;
+    left:350px;
+    top:60px;
+}
+.flex-end{
+    padding-top:340px;
+}
+.flex-endImage>img{
+    height:70px;
+}
+.flex-endcol{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.flex-endcol>span{
+    font-size:12px;
+}
+.animateimage22{
+    position:relative;
+    left:-200px;
+    top:-85px;
+}
+.animateimage22>img{ 
+    clip-path: polygon(0 32%, 100% 32%, 100% 100%, 0 100%);
+}
+.animatepageimg21>img{
+    position:relative;
+    left:50px;
+    top:400px;
+    height:300px;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0 86%);
+}
+.animateimage23>img{
+    position:relative;
+    height:400px;
+    left:-200px;
+    top:200px;
+}
+@keyframes drawDash {
+    to {
+      stroke-dasharray: 140, 1000; /* Your desired stroke dasharray */
+    }
+  }
+  
+  .transrgwht2 {
+    stroke-dasharray: 0, 1000; /* Start with dasharray of 0 */
+    stroke-dashoffset: 0; /* Ensure the stroke starts from the beginning */
+    animation: drawDash 1s linear forwards;
+  }
